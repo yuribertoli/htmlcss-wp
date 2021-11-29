@@ -17,6 +17,8 @@ header .top-page {
 
 header .top-page img {
     height: 80px;
+    padding-right: 30px;
+    border-right: 1.5px solid lightgrey;
 }
 
 
