@@ -102,7 +102,7 @@ main .textmain {
     clear: both;
 }
 
-    /* inizio titolo */
+    /* inizio titolo main */
 .textmain div.top-main {
     width: 100%;
     margin-bottom: 20px;
@@ -116,7 +116,7 @@ main .textmain {
     font-weight: 500;
     color: #b1aeae;
 }
-    /* fine titolo */
+    /* fine titolo main*/
 
     /* inizio regole generali img main */
 .img-main {
