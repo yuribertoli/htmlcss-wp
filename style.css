@@ -148,10 +148,15 @@ main .textmain {
 .testomain p {
     color: #a19d9d;
 }
+    /* fine lato sx */
 
+    /* inizio sezione centrale */
 .textmain section.central-main {
     width: 52%;
 }
+
+
+    /* fine sezione centrale */
 
 .textmain aside.right-main {
     width: 22%;
