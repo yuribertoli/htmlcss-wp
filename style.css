@@ -1,0 +1,93 @@
+/* Regole generali */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+/* Inizio regole TOP PAGE */
+header .top-page {
+    width: 100%;
+}
+
+header .top-page img {
+    height: 80px;
+}
+
+
+/* Fine regole TOP PAGE */
+
+/* Inizio regole immagine iniziale */
+main .imagemain {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(247, 194, 81);
+    margin: 30px 0;
+}
+/* Fine regole immagine iniziale */
+
+/* Inizio regole testo main */
+main .textmain {
+    width: 100%;
+    background-color: blue;
+    padding-bottom: 20px;
+}
+     
+.textmain div, aside, section { /* Regole sezioni interne main */
+    float: left;
+}
+        
+.textmain::after {  /* Clearfix */
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.textmain div.top-main {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+.textmain aside.left-main {
+    width: 22%;
+    height: 300px;
+    background-color: lightblue;
+    margin-right: 2%;
+}
+
+.textmain section.central-main {
+    width: 52%;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.textmain aside.right-main {
+    width: 22%;
+    height: 300px;
+    background-color: lightblue;
+    margin-left: 2%;
+}
+/* Fine regole testo main */
+
+/* Inizio regole footer */
+footer .bottompage {
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+    margin-top: 20px;
+}
+/* Fine regole footer */
+
+
+
+
+
+
+
