@@ -117,7 +117,6 @@ main .textmain {
     /* fine titolo */
 
     /* inizio regole generali img main */
-
 .img-main {
     width: 100%;
     height: 200px;
@@ -131,13 +130,6 @@ main .textmain {
     object-fit: cover;
     border-radius: 15px;
 }
-    /* fine regole generali img main */
-
-    /* inizio lato sx */
-.textmain aside.left-main {
-    width: 22%;
-    margin-right: 2%;
-}
 
 .testomain h2, p {
     font-weight: 200;
@@ -148,28 +140,35 @@ main .textmain {
 .testomain p {
     color: #a19d9d;
 }
-    /* fine lato sx */
+    /* fine regole generali img main */
 
-    /* inizio sezione centrale */
+.textmain aside.left-main {
+    width: 22%;
+    margin-right: 2%;
+}
+
 .textmain section.central-main {
     width: 52%;
 }
-
-
-    /* fine sezione centrale */
 
 .textmain aside.right-main {
     width: 22%;
     margin-left: 2%;
 }
+
 /* Fine regole testo main */
 
 /* Inizio regole footer */
 footer .bottompage {
     width: 100%;
-    height: 100px;
-    background-color: purple;
     margin-top: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+
+#heart {
+    color: red;
+    font-size: 25px;
 }
 /* Fine regole footer */
 
