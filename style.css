@@ -100,6 +100,7 @@ main .textmain {
     clear: both;
 }
 
+    /* inizio titolo */
 .textmain div.top-main {
     width: 100%;
     margin-bottom: 20px;
@@ -113,24 +114,39 @@ main .textmain {
     font-weight: 500;
     color: #b1aeae;
 }
+    /* fine titolo */
 
+    /* inizio regole generali img main */
+.textmain section, aside {
+    position: relative;
+}
+
+.img-main {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.img-main img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+    /* fine regole generali img main */
+
+    /* inizio lato sx */
 .textmain aside.left-main {
     width: 22%;
-    height: 300px;
-    background-color: lightblue;
     margin-right: 2%;
 }
 
 .textmain section.central-main {
     width: 52%;
-    height: 300px;
-    background-color: lightblue;
 }
 
 .textmain aside.right-main {
     width: 22%;
-    height: 300px;
-    background-color: lightblue;
     margin-left: 2%;
 }
 /* Fine regole testo main */
