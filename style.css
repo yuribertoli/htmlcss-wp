@@ -33,6 +33,8 @@ header .top-page img {
     height: 80px;
     padding-right: 30px;
     border-right: 1.5px solid lightgrey;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 nav li {
@@ -168,7 +170,7 @@ footer .bottompage {
 
 #heart {
     color: red;
-    font-size: 25px;
+    font-size: 18px;
 }
 /* Fine regole footer */
 
