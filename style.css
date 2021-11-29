@@ -65,6 +65,23 @@ main .imagemain {
     object-fit: cover;
 }
 
+.filter, .imagemain, img {
+    border-radius: 15px;
+}
+
+.text-banner {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;   
+    width: 50%;
+    text-align: justify; 
+    color: white;
+}
+
+.title-text-banner {
+    font-size: 2rem;
+}
+
 /* Fine regole immagine iniziale */
 
 /* Inizio regole testo main */
